@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/css.css">
+  <!-- chart js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+
+  <title>Dashboard Designed Using Bootstrap5 & Chart JS by devbanban.com</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <ion-icon name="laptop"></ion-icon>
+      </a>
+
+
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+        <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+        <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+        <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+        <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+      </ul>
+
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+        <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+      </form>
+
+      <div class="text-end">
+        <button type="button" class="btn btn-outline-light me-2">Login</button>
+        <button type="button" class="btn btn-warning">Sign-up</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-12">
+        <div class="alert alert-primary" role="alert">
+          <h4> About me Dashboard</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-sm-3">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header">
+            <ion-icon name="people-outline"></ion-icon>
+            ความสามารถ skill ภาษา
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Python java C#</h5>
+            <p class="card-text">
+              <a href="https://devbanban.com/?p=4425" class="text-white" style="text-decoration: none;"> more
+                detail...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-3">
+        <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+          <div class="card-header">
+            <img
+              src="https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/318968456_816336046124624_7837455116147810484_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGwKOBQzot5Lcaar6p227JwXRqH7LHNsSRdGofssc2xJOIjgUR31EMd5RgQlS-u0ZR62kg43kIgKWpZ92Ha8VmH&_nc_ohc=0OZpbMm96BkAX9c4hLb&_nc_ht=scontent.fcnx3-1.fna&oh=00_AfDwgsWDaCFB-v0pHFz6ua2MiK3Tsk5KG2IDyzIhB-P91A&oe=63AAE95F"
+              width="50" height="50" alt="">
+            Phadungkiat Sutayo
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">6404101325 Computer Science</h5>
+            <h5>Maejo university</h5>
+            <p class="card-text">
+              <a href="https://devbanban.com/?p=2867" class="text-white" style="text-decoration: none;"> more
+                detail...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-3">
+        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+          <div class="card-header">
+            <ion-icon name="desktop-outline"></ion-icon>
+            Goals
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">I want to be rich.</h5>
+            <h6>I want to improve yourself of write a good website.</h6>
+            <p class="card-text">
+              <a href="https://devbanban.com/?p=4425" class="text-white" style="text-decoration: none;"> more
+                detail...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-3">
+        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+          <div class="card-header">
+            <ion-icon name="desktop-outline"></ion-icon>
+            MAP
+          </div>
+          <div class="card-body">
+            <div class="col-lg-5">
+              <center><iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120881.13834349009!2d99.79120881591841!3d18.774270754947672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30d9b2f9a2b65203%3A0x40346c5fa8b9c80!2z4LiV4Liz4Lia4LilIOC4muC5ieC4suC4meC4reC5ieC4reC4mSDguK3guLPguYDguKDguK3guIfguLLguKcg4Lil4Liz4Lib4Liy4LiHIDUyMTEw!5e0!3m2!1sth!2sth!4v1671800830351!5m2!1sth!2sth"
+                  width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+            </div>
+            <p class="card-text">
+              <a href="https://devbanban.com/?p=4425" class="text-white" style="text-decoration: none;"> more
+                detail...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- //row -->
+
+    <div class="row">
+      <div class="col-sm-12">
+
+        <canvas id="myChart" height="100px"></canvas>
+        <script>
+          var ctx = document.getElementById("myChart").getContext('2d');
+          var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: ['2021', '2022'],
+
+              datasets: [{
+                label: 'เกรดเฉลี่ยในแต่ละปี',
+                data: ['3.5', '3.7'],
+                backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                  'rgba(255,99,132,1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+              }]
+            },
+            options: {
+              scales: {
+                yAxes: [{
+                  ticks: {
+                    beginAtZero: true
+                  }
+                }]
+              }
+            }
+          });
+        </script>
+
+      </div>
+    </div> <!-- //row -->
+  </div> <!-- //container -->
+
+  <div class="tebleflex">
+    <div class="box1"> 
+      <div class="bd-example">
+      
+        <table class="table table-dark table-striped">
+          <thead>
+            <tr class="table-active">
+              ...
+            </tr>
+            <tr>
+              <th scope="col">Daytime</th>
+              <th scope="col">8.00-9.00</th>
+              <th scope="col">9.00-10.00</th>
+              <th scope="col">10.00-11.00</th>
+              <th scope="col">11.00-12.00</th>
+              <th scope="col">12.00-13.00</th>
+              <th scope="col">13.00-14.00</th>
+              <th scope="col">14.00-15.00</th>
+              <th scope="col">15.00-16.00</th>
+              <th scope="col">16.00-17.00</th>
+              <th scope="col">17.00-18.00</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">จันทร์</th>
+              <td colspan="2" class="table-active"> <center>คพ232</center> </td>
+              <td colspan="2" class="table-active"><center>คพ313</center></td>
+              <td>...</td>
+              <td colspan="2" class="table-active"><center>สต301</center></td>
+              <td colspan="2" class="table-active"></td>
+              <td colspan="2" class="table-active"></td>
+            </tr>
+            <tr>
+              <th scope="row">อังคาร</th>
+              <td colspan="2" class="table-active"> <center>คท242</center> </td>
+              <td colspan="2" class="table-active"><center>ศท013</center></td>
+              <td>...</td>
+              <td colspan="2" class="table-active"><center>ศพ343</center></td>
+              <td colspan="3" class="table-active"><center>คพ313</center></td>
+            </tr>
+            <tr>
+              <th scope="row">พุธ</th>
+              <td colspan="1">...</td>
+              <td colspan="3" class="table-active"><center>คพ252</center></td>
+              <td colspan="6" class="table-active"></td>
+            </tr>
+            <tr>
+              <th scope="row">พฤหัสบดี</th>
+              <td colspan="1">...</td>
+              <td colspan="3" class="table-active"> <center>คพ232</center> </td>
+              <td colspan="1">...</td>
+              <td colspan="2" class="table-active"><center>สต301</center></td>
+              <td colspan="3">...</td>
+            </tr>
+            <tr>
+              <th scope="row">ศุกร์</th>
+              <td colspan="2" class="table-active"> <center>คท242</center> </td>
+              <td colspan="2" class="table-active"><center>ศท013</center></td>
+              <td colspan="1">...</td>
+              <td colspan="3" class="table-active"><center>ศพ343</center></td>
+              <td colspan="3">...</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+    </div>
+    <div class="box2"></div>
+  <div class="boxgflex">
+    <div class="Box1">
+      <section class="w-100 p-5">
+
+
+        <!-- Section: Timeline -->
+        <section class="">
+          <style>
+            .timeline-with-icons {
+              border-left: 1px solid hsl(0, 0%, 90%);
+              position: relative;
+              list-style: none;
+            }
+  
+            .timeline-with-icons .timeline-item {
+              position: relative;
+            }
+  
+            .timeline-with-icons .timeline-item:after {
+              position: absolute;
+              display: block;
+              top: 0;
+            }
+  
+            .timeline-with-icons .timeline-icon {
+              position: absolute;
+              left: -48px;
+              background-color: hsl(217, 88.2%, 90%);
+              color: hsl(217, 88.8%, 35.1%);
+              border-radius: 50%;
+              height: 31px;
+              width: 31px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          </style>
+  
+          <ul class="timeline-with-icons">
+            <li class="timeline-item mb-5">
+              <span class="timeline-icon">
+                <ion-icon name="dice"></ion-icon>
+              </span>
+  
+              <h5 class="fw-bold">ชั้นอนุบาล 1 - ชั้นมัธยมศึกษาปีที่ 3 </h5>
+              <p class="text-muted mb-2 fw-bold">ปี พ.ศ. 2550 - 2561</p>
+              <p class="text-muted">
+                โรงเรียนบ้านอ้อน  ตำบลบ้านอ้อน อำเภองาว จังหวัดลำปาง
+              </p>
+            </li>
+  
+            <li class="timeline-item mb-5">
+  
+              <span class="timeline-icon">
+                <ion-icon name="earth"></ion-icon>
+              </span>
+              <h5 class="fw-bold">ชั้นมัธยมศึกษาปีที่ 4 - ชั้นมัธยมศึกษาปีที่ 6 </h5>
+              <p class="text-muted mb-2 fw-bold">ปี พ.ศ. 2561 - 2564 </p>
+              <p class="text-muted">
+               โรงเรียนประชารัฐธรรมคุณ ตำบลหลวงเหนือ อำเภองาว จังหวัดลำปาง
+              </p>
+            </li>
+  
+            <li class="timeline-item mb-5">
+  
+              <span class="timeline-icon">
+                <ion-icon name="folder-open"></ion-icon>
+              </span>
+              <h5 class="fw-bold">ระดับปริญญาตรี 4 ปี </h5>
+              <p class="text-muted mb-2 fw-bold">ปี พ.ศ. 2564 - ปัจุปัน</p>
+              <p class="text-muted">
+               มหาวิทยาลัยแม่โจ้ เลขที่ 63 หมู่ 4 ตำบลหนองหาร อำเภอสันทราย จังหวัดเชียงใหม่
+              </p>
+            </li>
+
+          </ul>
+        </section>
+        <!-- Section: Timeline -->
+  
+      </section>
+      
+    </div>
+ 
+    
+  </div>
+
+  </div>
+  <footer style="margin-top: 100px">
+    <center> desiged by <a href="https://devbanban.com/"> devbanban.com </a> 2022</center>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- ionicon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+</body>
+
+</html>
